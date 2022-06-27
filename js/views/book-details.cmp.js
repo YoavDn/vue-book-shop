@@ -1,4 +1,5 @@
 import { bookService } from '../service/book-service.js'
+import { storageService } from '../service/async-storage-service.js'
 import reviewAdd from '../cmps/review-add.cmp.js'
 
 export default {
@@ -42,7 +43,12 @@ export default {
     },
     methods: {
         addReview(review) {
-            console.log(review);
+            console.log(review)
+            if (!this.book.reviews) this.book.reviews = []
+
+            this.book.reviews.push(review)
+
+            storageService.put('books', this.book)
 
         }
     },

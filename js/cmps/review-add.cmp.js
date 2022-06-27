@@ -12,7 +12,7 @@ export default {
         <label for="text-area">Review:</label>
         <textarea v-model="formData.review" id="text-area" rows="6" cols="80"></textarea>
 
-        <button @click.prevent="$emit('formSend',formData)">Send</button>
+        <button @click.prevent="send">Send</button>
     </form>
 
 
@@ -33,6 +33,11 @@ export default {
     methods: {
         rated(event) {
             this.formData.rating = event.target.value
+        }
+        ,
+        send() {
+            this.$emit('formSend', this.formData)
+            this.formData = {}
         }
     },
     computed: {
