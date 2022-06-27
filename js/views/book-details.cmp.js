@@ -26,6 +26,7 @@ export default {
         </section >
         
         <section  class="review-section" >
+            <h2><span>{{reviewsCount}}</span>: reviews</h2>
              <button class="add-review-btn" @click="reviewOpen = true"> Add review <span>&#9998;</span> </button>
              <review-add @formSend="addReview" :book="book" v-if='reviewOpen' />
          </section>
@@ -72,11 +73,22 @@ export default {
 
             if (currYear - this.book.publishedDate > 10) return "Vetaran book"
             if (currYear - this.book.publishedDate < 1) return 'New book'
+        },
+        reviewsCount() {
+            console.log(this.book);
+
+
+            return this.book.reviews ? this.book.reviews.length : 0
         }
+
 
     },
     created() {
         const id = this.$route.params.bookId
         bookService.get(id).then(book => this.book = book)
+
     }
+    ,
+
+
 }
