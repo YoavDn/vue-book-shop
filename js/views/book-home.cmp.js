@@ -1,6 +1,8 @@
 export default {
     template: `
-    <h2>Book Shop</h2>
+    <section class="home-section">
+        <h2>Book Shop</h2>
+    </section>
     `,
 
 

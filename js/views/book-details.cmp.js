@@ -1,9 +1,11 @@
+import { bookService } from '../service/book-service.js'
 
 export default {
-    props: ['book'],
+
     template: `
-        <button @click="$emit('close')" class="btn btn-back">&leftarrow; Back</button>
-        <section class="book-detail-page">
+
+        <router-link class="btn-back" :to="'/book/'"> &leftarrow; Back</router-link>
+        <section v-if="book" class="book-detail-page">
             <img :src="book.thumbnail" alt="">
             <div class="book-details">
             <h2 class="book-age">{{bookAge}}</h2>
@@ -23,13 +25,13 @@ export default {
                     
 
 
-            </div>
-            
-        </section>
+            </div> 
+         </section>
     `,
     data() {
         return {
-            isSale: this.book.listPrice.isOnSale
+            book: null,
+            isSale: null
         }
     },
     methods: {
@@ -51,13 +53,14 @@ export default {
         },
         bookAge() {
             const currYear = new Date().getFullYear()
-            console.log(currYear);
+
             if (currYear - this.book.publishedDate > 10) return "Vetaran book"
             if (currYear - this.book.publishedDate < 1) return 'New book'
         }
 
     },
     created() {
-        console.log(this.book);
+        const id = this.$route.params.bookId
+        bookService.get(id).then(book => this.book = book)
     }
 }

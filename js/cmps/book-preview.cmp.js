@@ -1,7 +1,8 @@
 export default {
-    props:['book'],
+    props: ['book'],
     template: `
-    <img :src="book.thumbnail" alt="">
+    <!-- <img :src="book.thumbnail" alt=""> -->
+    <router-link :to="'/book/'+book.id"><img :src="book.thumbnail"/></router-link>
         <h2 class="title">{{book.title}}</h2>
     `,
     data() {
@@ -9,7 +10,7 @@ export default {
         }
     },
     methods: {
-    
+
     },
     computed: {
     },

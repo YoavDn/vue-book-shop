@@ -36,10 +36,7 @@ function _createBooks() {
     let books = utilService.loadFromStorage(BOOK_KEY);
     if (!books || !books.length) {
 
-        books = fetch('books.json').then(res => {
-
-            return res.json()
-        })
+        books = fetch('books.json').then(res => res.json())
             .then(res => utilService.saveToStorage(BOOK_KEY, res))
 
     }

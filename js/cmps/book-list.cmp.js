@@ -9,7 +9,7 @@ export default {
              <book-preview  :book='book'/>
              <h2 v-if="book.listPrice.isOnSale" class="preview-sale">SALE</h2>
              <h2 class="preview-price" :class="priceStyle(book)" >{{bookPrice(book)}}</h2>
-            <button class="details-btn" @click="select(book)">Details</button>
+             <router-link class="details-btn" :to="'/book/'+book.id">Details</router-link>
         </div>
 
 
@@ -26,9 +26,7 @@ export default {
         }
     },
     methods: {
-        select(book) {
-            this.$emit('selected', book)
-        },
+
 
         bookPrice(book) {
             const amount = book.listPrice.amount

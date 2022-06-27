@@ -6,8 +6,8 @@ import bookFilter from '../cmps/book-filter.cmp.js'
 export default {
     template: `
     <book-filter v-if="!selectedBook" @filtered="filterBook"/>
-    <book-list v-if="!selectedBook" :books="booksToDisplay"  @selected="selectBook"/>
-    <book-details v-if="selectedBook" @close="closed" :book="selectedBook" />
+    <book-list v-if="!selectedBook" :books="booksToDisplay" />
+    <book-details v-if="selectedBook" @close="closed"  />
     `,
     components: {
         bookList,
@@ -27,7 +27,7 @@ export default {
     ,
     methods: {
         selectBook(book) {
-            console.log(book);
+
             this.selectedBook = book
         },
         closed() {
