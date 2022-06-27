@@ -16,12 +16,13 @@ export default {
     },
     data() {
         return {
-            books:bookService.getBooks(),
-            selectedBook : null,
+            books: null,
+            selectedBook: null,
             filterBy: null,
         }
     },
     created() {
+        bookService.query().then(books => this.books = books)
     }
     ,
     methods: {
@@ -36,15 +37,15 @@ export default {
             console.log(filterBy);
             this.filterBy = filterBy;
         }
-      
+
     },
     computed: {
-     booksToDisplay() {
-             if (!this.filterBy) return this.books;
-             const regex = new RegExp(this.filterBy.name, "i");
-             return this.books.filter((book) => {
+        booksToDisplay() {
+            if (!this.filterBy) return this.books;
+            const regex = new RegExp(this.filterBy.name, "i");
+            return this.books.filter((book) => {
                 return regex.test(book.title) && book.listPrice.amount > this.filterBy.price
-             });
-            },
+            });
+        },
     },
 }
