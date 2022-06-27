@@ -1,4 +1,5 @@
 import { bookService } from '../service/book-service.js'
+import reviewAdd from '../cmps/review-add.cmp.js'
 
 export default {
 
@@ -20,21 +21,30 @@ export default {
                 <h3 class="book-cat">Categories: <span class="categories">{{bookCat}}</span></h3>
                 <h3 class="description-title">Description</h3>
                 <p class="book-description">{{book.description}}</p>
-                
-                
-                    
-
-
             </div> 
+        </section >
+        
+        <section  class="review-section" >
+             <button class="add-review-btn" @click="reviewOpen = true"> Add review <span>&#9998;</span> </button>
+             <review-add @formSend="addReview" :book="book" v-if='reviewOpen' />
          </section>
     `,
+    components: {
+        reviewAdd,
+    }
+    ,
     data() {
         return {
             book: null,
-            isSale: null
+            isSale: null,
+            reviewOpen: false
         }
     },
     methods: {
+        addReview(review) {
+            console.log(review);
+
+        }
     },
     computed: {
         bookPrice() {
