@@ -8,12 +8,25 @@ export const bookService = {
     query,
     remove,
     save,
-    get
+    get,
+    addReview
 };
 
 function query() {
     return storageService.query(BOOK_KEY)
     // return utilService.loadFromStorage(BOOK_KEY);
+}
+
+function addReview(bookId, review) {
+
+
+
+    return get(bookId).then(book => {
+        if (!book.reviews) book.reviews = []
+        book.reviews.push(review);
+        return save(book)
+    })
+
 }
 
 function remove(bookId) {

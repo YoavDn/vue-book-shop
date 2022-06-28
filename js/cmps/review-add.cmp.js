@@ -3,19 +3,15 @@ import starRate from './star-rate.cmp.js'
 export default {
     props: ['book'],
     template: `
-
-        <form class="review-form">
-            <label for="full-name-input">Full name:</label>
-            <input v-model="formData.fullName" id="full-name-input" type="text">
+        <form @submit.prevent="send" class="review-form">
+        <label for="full-name-input">Full name:</label>
+        <input v-model="formData.fullName" id="full-name-input" type="text">
         <label>Rating:</label>
         <star-rate @starRate.prevent="rated" class="input-star-rate" id="rate-star"/>
         <label for="text-area">Review:</label>
         <textarea v-model="formData.review" id="text-area" rows="6" cols="80"></textarea>
-
-        <button @click.prevent="send">Send</button>
-    </form>
-
-
+        <button @keyup.enter="send" >Send</button>
+        </form>
     `,
     components: {
         starRate,
@@ -40,6 +36,5 @@ export default {
             this.formData = {}
         }
     },
-    computed: {
-    },
+
 }

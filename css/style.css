@@ -347,15 +347,17 @@ label {
 
 
 .add-review-btn {
-    margin-block: 3rem;
-    cursor: pointer;
 
+
+    cursor: pointer;
+    display: block;
+    margin: auto;
     padding: 1rem;
     font-size: 18px;
 
 
-    margin: auto;
-    margin-bottom: 3rem;
+
+    margin-block: 3rem;
     border-radius: 10px;
 }
 

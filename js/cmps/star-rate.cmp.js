@@ -1,7 +1,6 @@
 export default {
     template: `
     <div @change.prevent="$emit('starRate',$event )" class="rate">
-
         <input type="radio" id="star5" name="rate" value="5" />
         <label for="star5" title="text">5 stars</label>
         <input type="radio" id="star4" name="rate" value="4" />
@@ -12,15 +11,5 @@ export default {
         <label for="star2" title="text">2 stars</label>
         <input type="radio" id="star1" name="rate" value="1" />
         <label for="star1" title="text">1 star</label>
-    </div>
-        
-    `,
-    data() {
-        return {
-        }
-    },
-    methods: {
-    },
-    computed: {
-    },
+    </div>`,
 }
