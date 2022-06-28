@@ -1,4 +1,5 @@
 import { bookService } from '../service/book-service.js'
+import reviewPost from '../cmps/review-post-cmp.js'
 import reviewAdd from '../cmps/review-add.cmp.js'
 
 export default {
@@ -7,7 +8,7 @@ export default {
         <section v-if="book" class="book-detail-page">
             <img :src="book.thumbnail" alt="">
             <div class="book-details">
-            <h2 class="book-age">{{bookAge}}</h2>
+                <h2 class="book-age">{{bookAge}}</h2>
                 <div class="title-details">
                     <h2 class="book-title" >{{book.title}}</h2>
                     <h2 v-if="book.listPrice.isOnSale" class="sale">SALE</h2>
@@ -17,18 +18,17 @@ export default {
                 <h3 class="book-cat">Categories: <span class="categories">{{bookCat}}</span></h3>
                 <h3 class="description-title">Description</h3>
                 <p class="book-description">{{book.description}}</p>
+                <h4 class="book-pages">{{book.pageCount}} pages/ {{bookPages}}</h4>
             </div> 
         </section>
-        <section v-if="book.reviews" class="reviews">
-            <h2 v-if="book.reviews">{{book.reviews.length -1}}: reviews</h2>
-            <ul>
-                <li v-for="rev in book.reviews">
-                    <h2>{{rev.fullName}}</h2>
-                    <h3>{{rev.rating}}</h3>
-                    <p>{{rev.review}}</p>
-                </li>
-            </ul>
 
+        <h2 v-if="book" @click="postsOpen = !postsOpen" class="reviews-count">{{revCount}}: reviews <span v-if="book.reviews" class="arrows" v-html=toggleArrows></span></h2>
+        <section v-if="postsOpen && book" class="reviews">
+            <div class="post-reviews">
+                <div v-for="rev in book.reviews" class="review-post">
+                    <review-post :rev="rev" />
+                </div>
+            </div>            
         </section>
         
         <button class="add-review-btn" @click="reviewOpen = true"> Add review <span>&#9998;</span> </button>
@@ -38,17 +38,20 @@ export default {
     `,
     components: {
         reviewAdd,
+        reviewPost,
     },
 
     data() {
         return {
             book: null,
             reviewOpen: false,
+            postsOpen: false,
 
         }
     },
     methods: {
         addReview(review) {
+            console.log(review);
             bookService.addReview(this.book.id, review).then(book => this.book = book)
 
         }
@@ -73,9 +76,22 @@ export default {
             if (currYear - this.book.publishedDate > 10) return "Vetaran book"
             if (currYear - this.book.publishedDate < 1) return 'New book'
         },
+        bookPages() {
+            if (this.book.pageCount > 500) return 'Long Reading'
+            return this.book.pageCount > 130 ? 'Decent reading' : 'Light reading'
+        },
+        revCount() {
+            if (!this.book.reviews) return '0'
+            return this.book.reviews.length
+        },
+        toggleArrows() {
+            if (this.postsOpen) return 'See less &uparrow;'
+            return " See more &downarrow;"
+        }
     },
     created() {
         const id = this.$route.params.bookId
         bookService.get(id).then(book => this.book = book)
-    }
+    },
+
 }

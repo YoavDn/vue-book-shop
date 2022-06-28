@@ -19,31 +19,23 @@ html {
     width: 90%;
     margin: auto;
     justify-content: center;
-
 }
 
 .book {
     position: relative;
     display: flex;
-    flex-basis: 18%;
+    flex-basis: 200px;
     flex-direction: column;
     margin: 1rem;
     margin-bottom: 40px;
     background-color: rgb(255, 255, 255);
-
-
     justify-content: space-between;
-    /* align-items: center; */
-
     padding: 18px;
     border-radius: 8px;
 
 }
 
-
 .title {
-
-
     font-size: 20px;
     text-align: center;
     font-weight: 500;
@@ -52,7 +44,6 @@ html {
 
 .book img {
     width: 100%;
-
 }
 
 .preview-sale {
@@ -64,21 +55,16 @@ html {
     font-weight: 200;
     border: solid white 1px;
     top: 23px;
-
     left: 25px;
 }
 
 .book-detail-page {
-
     width: 60%;
-
     margin: auto;
     display: flex;
     margin-block-start: 4rem;
     align-items: flex-start;
     justify-content: center;
-
-
 }
 
 .book-details {
@@ -86,8 +72,6 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-
-
 }
 
 .book-detail-page img {
@@ -110,32 +94,21 @@ html {
 
 .book-price {
     font-weight: 200;
-
     color: var(--brand-clr)
 }
-
-
-
-
 
 button {
     cursor: pointer;
     border: none;
     border-radius: 3px;
-
     padding: 7px;
     background-color: var(--brand-clr);
     color: white;
 }
 
-
 .title-details {
-
     display: flex;
     align-items: center;
-
-
-
 }
 
 .book-title {
@@ -145,8 +118,6 @@ button {
 .red {
     color: red;
 }
-
-
 
 .book-price h3 {
     display: flex;
@@ -160,9 +131,6 @@ button {
     background-color: white;
     color: var(--brand-clr);
     font-size: 20px;
-
-
-
     position: absolute;
     top: 80px;
     left: 50px;
@@ -177,12 +145,15 @@ button {
     margin-inline-start: 20px;
 }
 
-.categories {
+.book-pages {
+    margin-top: 1rem;
+    font-weight: 500;
+}
 
+.categories {
     margin-inline-start: 4px;
     color: rgb(68, 68, 68);
     font-weight: 300;
-
 }
 
 .book-age {
@@ -193,7 +164,6 @@ button {
 .filter-books {
     width: 80%;
     margin: auto;
-
     margin-block: 30px;
 }
 
@@ -213,37 +183,30 @@ button {
 }
 
 form {
-
     display: flex;
+    justify-content: center;
     align-items: center;
-
 }
 
 input {
     padding: 10px;
     margin-inline-end: 3rem;
-
-
 }
 
 label {
     margin-inline-end: 1rem;
     font-size: 20px;
-
 }
 
 .preview-price {
     font-size: 20px;
     font-weight: 300;
-
-
     margin-bottom: .4rem;
 }
 
 .book-authors {
     font-weight: 300;
     font-size: 20px;
-
 }
 
 .book-price-details {
@@ -253,13 +216,11 @@ label {
 
 .book-cat {
     font-weight: 500;
-
     margin-bottom: 2rem;
 }
 
 .description-title {
     padding: 8px 0;
-
     font-size: 20px;
     font-weight: 500;
     text-decoration: underline;
@@ -268,7 +229,6 @@ label {
 
 .app-header {
     color: white;
-
     width: 90%;
     margin: auto;
     display: flex;
@@ -291,7 +251,6 @@ label {
     line-height: 50px;
     text-decoration: none;
     color: white;
-
 }
 
 .nav-bar a:hover {
@@ -308,8 +267,8 @@ label {
 }
 
 .rate:not(:checked)>input {
-    position: absolute;
-    top: -9999px;
+
+    display: none;
 }
 
 .rate:not(:checked)>label {
@@ -318,7 +277,7 @@ label {
     overflow: hidden;
     white-space: nowrap;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 20px;
     color: #ccc;
 }
 
@@ -327,12 +286,12 @@ label {
 }
 
 .rate>input:checked~label {
-    color: #ffc700;
+    color: #000000;
 }
 
 .rate:not(:checked)>label:hover,
 .rate:not(:checked)>label:hover~label {
-    color: #deb217;
+    color: #151515;
 }
 
 .rate>input:checked+label:hover,
@@ -340,23 +299,17 @@ label {
 .rate>input:checked~label:hover,
 .rate>input:checked~label:hover~label,
 .rate>label:hover~input:checked~label {
-    color: #c59b08;
+    color: #393939;
 }
 
 /* /////////// review form */
 
-
 .add-review-btn {
-
-
     cursor: pointer;
     display: block;
     margin: auto;
     padding: 1rem;
     font-size: 18px;
-
-
-
     margin-block: 3rem;
     border-radius: 10px;
 }
@@ -373,18 +326,13 @@ label {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
-
-
 }
 
 .review-form {
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 4rem;
-
 }
 
 .review-form label {
@@ -402,4 +350,39 @@ label {
 
 textarea {
     margin-bottom: 2rem;
+}
+
+.reviews-count {
+    padding-top: 2rem;
+    width: 80%;
+    margin: auto;
+}
+
+.review-post {
+    border-top: solid 1px rgb(39, 39, 39);
+    padding: 1rem 0;
+    width: 80%;
+    margin: auto;
+    margin-block: 1rem;
+    color: rgb(39, 39, 39);
+}
+
+.review-post h3 {
+    font-size: 1em;
+}
+
+.review-post p {
+    padding: 1rem 0;
+}
+
+.arrows {
+    border-bottom: solid rgb(45, 45, 45) 1px;
+    cursor: pointer;
+    margin-inline-start: 1em;
+    font-size: .8em;
+}
+
+.main-post {
+    display: flex;
+    justify-content: space-between;
 }
