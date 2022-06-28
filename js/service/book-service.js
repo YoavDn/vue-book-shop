@@ -59,16 +59,17 @@ function _createBooks() {
     return books
 }
 
-function getBookByQuery(query) {
-    const regex = new RegExp(query, "i");
 
-    return fetch('demo-api.json').then(res => res.json())
-        .then(allBooks => {
-            return allBooks.items.filter(book => {
-                return regex.test(book.volumeInfo.title)
-            })
-        })
+
+function getBookByQuery(query) {
+    // const regex = new RegExp(query, "i");
+
+    return fetch(`https://www.googleapis.com/books/v1/volumes?printType=books&q=${query}`).then(res => res.json())
+        .then(res => res.items)
+
 }
+
+
 
 function addGoogleBook(book) {
     console.log(book);
@@ -102,3 +103,17 @@ function getNextBookId(bookId) {
             return (idx < book.length - 1) ? book[idx + 1].id : book[0].id
         })
 }
+
+
+
+//for demo data
+// function getBookByQuery(query) {
+//     const regex = new RegExp(query, "i");
+
+//     return fetch('demo-api.json').then(res => res.json())
+//         .then(allBooks => {
+//             return allBooks.items.filter(book => {
+//                 return regex.test(book.volumeInfo.title)
+//             })
+//         })
+// }

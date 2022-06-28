@@ -14,7 +14,7 @@ export default {
             <div class="book-option-header">
                 <h2>{{book.volumeInfo.title}}</h2>
                 <button @click="addBook(book)">Add book</button>
-                <button @click="togglePreview(idx)">Details</button>
+                <button class="preview-details-btn" @click="togglePreview(idx)">Details</button>
             </div> 
             <section v-if="previewSections[idx]" class="preview-section">
                 <div class="preview-details">

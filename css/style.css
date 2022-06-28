@@ -476,3 +476,8 @@ textarea {
     top: 80px;
     right: 50px;
 }
+
+.preview-details-btn {
+    background: none;
+    color: var(--brand-clr);
+}
