@@ -6,6 +6,7 @@ import reviewAdd from '../cmps/review-add.cmp.js'
 export default {
     template: `
         <router-link class="btn-back" :to="'/book/'"> &leftarrow; Back</router-link>
+        <router-link class="next-book-btn" :to="'/book/' + nextBookId">Next book &rightarrow; </router-link>
         <section v-if="book" class="book-detail-page">
             <img :src="book.thumbnail" alt="">
             <div class="book-details">
@@ -47,7 +48,7 @@ export default {
             book: null,
             reviewOpen: false,
             postsOpen: false,
-
+            nextBookId: null
         }
     },
     methods: {
@@ -94,8 +95,26 @@ export default {
         }
     },
     created() {
-        const id = this.$route.params.bookId
-        bookService.get(id).then(book => this.book = book)
+        // const id = this.$route.params.bookId
+        // bookService.get(id).then(book => this.book = book)
     },
+
+    watch: {
+        '$route.params.bookId': {
+            handler() {
+                const id = this.$route.params.bookId
+                bookService.get(id).then(book => {
+
+                    this.book = book
+                    bookService.getNextBookId(book.id)
+                        .then(nextBookId => {
+                            return this.nextBookId = nextBookId
+                        })
+                })
+            },
+            immediate: true
+        }
+
+    }
 
 }

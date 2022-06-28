@@ -11,7 +11,8 @@ export const bookService = {
     get,
     addReview,
     getBookByQuery,
-    addGoogleBook
+    addGoogleBook,
+    getNextBookId,
 };
 
 function query() {
@@ -90,4 +91,14 @@ function addGoogleBook(book) {
     }
     storageService.post(BOOK_KEY, newBook)
 
+}
+
+
+
+function getNextBookId(bookId) {
+    return storageService.query(BOOK_KEY)
+        .then(book => {
+            const idx = book.findIndex(book => book.id === bookId)
+            return (idx < book.length - 1) ? book[idx + 1].id : book[0].id
+        })
 }

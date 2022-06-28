@@ -5,7 +5,11 @@ import bookFilter from '../cmps/book-filter.cmp.js'
 
 export default {
     template: `
-    <router-link to="/book/addBook">Add new Book</router-link>
+    <router-link class="add-book-btn" to="/book/addBook">Add new Book</router-link>
+    <div class="or-existing">
+        <h2>-----OR------</h2>
+        <h2>Search an existing book</h2>
+    </div>
     <book-filter v-if="!selectedBook" @filtered="filterBook"/>
     <book-list v-if="!selectedBook" :books="booksToDisplay" />
     <book-details v-if="selectedBook" @close="closed"  />

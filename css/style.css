@@ -398,12 +398,32 @@ textarea {
 }
 
 .book-option {
-    width: 80%;
     margin: auto;
+    width: 80%;
+    border-bottom: solid 1px gray;
+}
+
+.book-option-header {
     display: flex;
     justify-content: space-around;
     padding: 3em;
-    border-bottom: solid 1px gray;
+}
+
+.preview-section {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.preview-section h3 {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.preview-img {
+    height: 100px;
+
 }
 
 .book-option h2 {
@@ -420,4 +440,39 @@ textarea {
     margin-block: 2rem;
     text-align: center;
     font-size: 29px;
+}
+
+.add-book-btn {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-block: 2rem;
+    text-decoration: none;
+    background-color: var(--brand-clr);
+    width: 150px;
+    padding: 10px;
+    border-radius: .5em;
+    color: white;
+    cursor: pointer;
+}
+
+.or-existing {
+    text-align: center;
+    color: rgb(45, 45, 45);
+    font-size: 12px;
+
+}
+
+.or-existing h2 {
+    font-weight: 300;
+}
+
+
+.next-book-btn {
+    background-color: white;
+    color: var(--brand-clr);
+    font-size: 20px;
+    position: absolute;
+    top: 80px;
+    right: 50px;
 }
