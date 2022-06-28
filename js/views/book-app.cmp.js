@@ -5,6 +5,7 @@ import bookFilter from '../cmps/book-filter.cmp.js'
 
 export default {
     template: `
+    <router-link to="/book/addBook">Add new Book</router-link>
     <book-filter v-if="!selectedBook" @filtered="filterBook"/>
     <book-list v-if="!selectedBook" :books="booksToDisplay" />
     <book-details v-if="selectedBook" @close="closed"  />
@@ -19,6 +20,7 @@ export default {
             books: null,
             selectedBook: null,
             filterBy: null,
+            googleBooks: null,
         }
     },
     created() {
@@ -34,10 +36,9 @@ export default {
             this.selectedBook = null
         },
         filterBook(filterBy) {
-            console.log(filterBy);
             this.filterBy = filterBy;
-        }
 
+        }
     },
     computed: {
         booksToDisplay() {
@@ -47,5 +48,8 @@ export default {
                 return regex.test(book.title) && book.listPrice.amount > this.filterBy.price
             });
         },
+
+
     },
+
 }

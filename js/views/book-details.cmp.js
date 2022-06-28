@@ -1,4 +1,5 @@
 import { bookService } from '../service/book-service.js'
+import { eventBus } from '../service/eventBus-service.js'
 import reviewPost from '../cmps/review-post-cmp.js'
 import reviewAdd from '../cmps/review-add.cmp.js'
 
@@ -52,7 +53,10 @@ export default {
     methods: {
         addReview(review) {
             console.log(review);
-            bookService.addReview(this.book.id, review).then(book => this.book = book)
+            bookService.addReview(this.book.id, review).then(book => {
+                eventBus.emit('show-msg', { txt: 'Saved/Update successfully', type: 'success' })
+                return this.book = book
+            })
 
         }
     },

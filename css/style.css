@@ -386,3 +386,38 @@ textarea {
     display: flex;
     justify-content: space-between;
 }
+
+.user-msg {
+    position: fixed;
+    top: 50px;
+    right: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 7px rgb(39, 39, 39);
+    padding: 30px;
+    border-radius: .4rem;
+}
+
+.book-option {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 3em;
+    border-bottom: solid 1px gray;
+}
+
+.book-option h2 {
+    font-size: 20px;
+    flex-basis: 70%;
+}
+
+.book-option button {
+    height: 30px;
+}
+
+
+.new-book-header {
+    margin-block: 2rem;
+    text-align: center;
+    font-size: 29px;
+}

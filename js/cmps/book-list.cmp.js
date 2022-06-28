@@ -4,6 +4,7 @@ import bookPreview from './book-preview.cmp.js'
 export default {
     props: ['books'],
     template: `
+        
         <section class="book-list">
          <div v-for="book in books"  class="book">
              <book-preview  :book='book'/>

@@ -9,7 +9,9 @@ export const bookService = {
     remove,
     save,
     get,
-    addReview
+    addReview,
+    getBookByQuery,
+    addGoogleBook
 };
 
 function query() {
@@ -56,5 +58,36 @@ function _createBooks() {
     return books
 }
 
+function getBookByQuery(query) {
+    const regex = new RegExp(query, "i");
 
+    return fetch('demo-api.json').then(res => res.json())
+        .then(allBooks => {
+            return allBooks.items.filter(book => {
+                return regex.test(book.volumeInfo.title)
+            })
+        })
+}
 
+function addGoogleBook(book) {
+    console.log(book);
+    const { title, pageCount, authors, description, categories } = book.volumeInfo
+
+    const newBook = {
+        id: book.id,
+        title,
+        authors,
+        publishedDate: book.volumeInfo.publishedDate.substring(0, 4),
+        description,
+        categories,
+        pageCount,
+        thumbnail: book.volumeInfo.imageLinks.thumbnail,
+        listPrice: {
+            amount: 150,
+            currencyCode: 'ILS',
+            isOnSale: false,
+        }
+    }
+    storageService.post(BOOK_KEY, newBook)
+
+}

@@ -1,0 +1,691 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 457,
+    "items": [
+        {
+            "kind": "books#volume",
+            "id": "E9B9DAVoTTAC",
+            "etag": "2KyOlHMnI78",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/E9B9DAVoTTAC",
+            "volumeInfo": {
+                "title": "Effective Reading Teacher's Book",
+                "subtitle": "Reading Skills for Advanced Students",
+                "authors": [
+                    "Simon Greenall",
+                    "Michael Swan"
+                ],
+                "publisher": "Cambridge University Press",
+                "publishedDate": "1986-08-14",
+                "description": "Reading skills for advanced students.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0521317606"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780521317603"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 124,
+                "printType": "BOOK",
+                "categories": [
+                    "Foreign Language Study"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.2.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=E9B9DAVoTTAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=E9B9DAVoTTAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=E9B9DAVoTTAC&printsec=frontcover&dq=effective&hl=&as_pt=BOOKS&cd=1&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=E9B9DAVoTTAC&dq=effective&hl=&as_pt=BOOKS&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Effective_Reading_Teacher_s_Book.html?hl=&id=E9B9DAVoTTAC"
+            },
+            "saleInfo": {
+                "country": "IL",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "IL",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=E9B9DAVoTTAC&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Reading skills for advanced students."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "xz4w6YOYgt4C",
+            "etag": "UyUnykRzW/0",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/xz4w6YOYgt4C",
+            "volumeInfo": {
+                "title": "9 Habits of Highly Effective Teachers",
+                "subtitle": "A Practical Guide to Personal Development",
+                "authors": [
+                    "Jacquie Turnbull"
+                ],
+                "publisher": "A&amp;C Black",
+                "publishedDate": "2013-08-15",
+                "description": "Provides guidance on personal development to inspire professional effectiveness.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781441169044"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1441169040"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 256,
+                "printType": "BOOK",
+                "categories": [
+                    "Education"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.2.1.0.preview.1",
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=xz4w6YOYgt4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=xz4w6YOYgt4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=xz4w6YOYgt4C&printsec=frontcover&dq=effective&hl=&as_pt=BOOKS&cd=2&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=xz4w6YOYgt4C&dq=effective&hl=&as_pt=BOOKS&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/9_Habits_of_Highly_Effective_Teachers.html?hl=&id=xz4w6YOYgt4C"
+            },
+            "saleInfo": {
+                "country": "IL",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "IL",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=xz4w6YOYgt4C&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Provides guidance on personal development to inspire professional effectiveness."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "UYZKAQAAMAAJ",
+            "etag": "lLlSQIJpR6k",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/UYZKAQAAMAAJ",
+            "volumeInfo": {
+                "title": "Illinois Register",
+                "publishedDate": "2003",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "MINN:31951P010339943"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "printType": "BOOK",
+                "categories": [
+                    "Administrative law"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.3.2.0.preview.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=UYZKAQAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=UYZKAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=UYZKAQAAMAAJ&q=effective&dq=effective&hl=&as_pt=BOOKS&cd=3&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=UYZKAQAAMAAJ&dq=effective&hl=&as_pt=BOOKS&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Illinois_Register.html?hl=&id=UYZKAQAAMAAJ"
+            },
+            "saleInfo": {
+                "country": "IL",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "IL",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=UYZKAQAAMAAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "166, \u003cb\u003eeffective\u003c/b\u003e June 10, 1979; rule repealed and new rule adopted at 6 Ill. Reg. 8374, \u003cb\u003eeffective\u003c/b\u003e July 6, 1982; emergency amendment at 6 Ill. Reg. 8508, \u003cb\u003eeffective\u003c/b\u003e July 6, 1982, for a maximum of 150 days, amended at 7 Ill. Reg."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "TDy4L26mwi8C",
+            "etag": "Dv7MF7O23zU",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/TDy4L26mwi8C",
+            "volumeInfo": {
+                "title": "Becoming an Effective Mentoring Leader: Proven Strategies for Building Excellence in Your Organization",
+                "authors": [
+                    "William J Rothwell",
+                    "Peter Chee"
+                ],
+                "publisher": "McGraw Hill Professional",
+                "publishedDate": "2013-01-10",
+                "description": "Based on the material taught in ITD's certification, training, and \"mega-guru\" conferences, Becoming an Effective Mentoring Leader presents key concepts and strategies any managers can use to boost morale, production, and, eventually, the bottom line by including mentoring in their daily activities.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780071805704"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0071805702"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 198,
+                "printType": "BOOK",
+                "categories": [
+                    "Business & Economics"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.0.0.preview.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=TDy4L26mwi8C&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=TDy4L26mwi8C&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=TDy4L26mwi8C&q=effective&dq=effective&hl=&as_pt=BOOKS&cd=4&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=TDy4L26mwi8C&dq=effective&hl=&as_pt=BOOKS&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Becoming_an_Effective_Mentoring_Leader_P.html?hl=&id=TDy4L26mwi8C"
+            },
+            "saleInfo": {
+                "country": "IL",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "IL",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=TDy4L26mwi8C&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Latest in a series from bestselling author (and head of the #1-ranked graduate program for Human Resource Development in the U.S.) William Rothwell, and global learning expert Dr. Peter Chee, with Colin Tan and Dr. Low Hun Seng, it’s the ..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "knAyAAAAIAAJ",
+            "etag": "axFbb4RjRRc",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/knAyAAAAIAAJ",
+            "volumeInfo": {
+                "title": "Laws of the State of Illinois Enacted by the General Assembly",
+                "authors": [
+                    "Illinois"
+                ],
+                "publishedDate": "1978",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "UCAL:B3683020"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "printType": "BOOK",
+                "categories": [
+                    "Law"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.4.0.0.preview.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=knAyAAAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=knAyAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=knAyAAAAIAAJ&q=effective&dq=effective&hl=&as_pt=BOOKS&cd=5&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=knAyAAAAIAAJ&dq=effective&hl=&as_pt=BOOKS&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Laws_of_the_State_of_Illinois_Enacted_by.html?hl=&id=knAyAAAAIAAJ"
+            },
+            "saleInfo": {
+                "country": "IL",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "IL",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=knAyAAAAIAAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Public Act 3, Peoria County, Kane County, Tazewell County, \u003cb\u003eeffective\u003c/b\u003e date . . . . . . . . o St. Clair County, \u003cb\u003eeffective\u003c/b\u003e date. ... Department of Administrative Services, authorized dispose of Illinois Youth Center, \u003cb\u003eeffective\u003c/b\u003e date."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "GwstAQAAMAAJ",
+            "etag": "imymlfyN+Zo",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/GwstAQAAMAAJ",
+            "volumeInfo": {
+                "title": "Report of Workers' Compensation Board of Nova Scotia",
+                "authors": [
+                    "Workers' Compensation Board of Nova Scotia"
+                ],
+                "publishedDate": "1979",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "CORNELL:31924002770448"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "printType": "BOOK",
+                "categories": [
+                    "Workers' compensation"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.1.1.0.preview.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=GwstAQAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=GwstAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=GwstAQAAMAAJ&q=effective&dq=effective&hl=&as_pt=BOOKS&cd=6&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=GwstAQAAMAAJ&dq=effective&hl=&as_pt=BOOKS&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Report_of_Workers_Compensation_Board_of.html?hl=&id=GwstAQAAMAAJ"
+            },
+            "saleInfo": {
+                "country": "IL",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "IL",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=GwstAQAAMAAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": ".284.00 per month \u003cb\u003eeffective\u003c/b\u003e January 1, 1977 .307.00 per month \u003cb\u003eeffective\u003c/b\u003e January 1, 1978 .332.00 per month \u003cb\u003eeffective\u003c/b\u003e January 1, 1979 .359.00 per month \u003cb\u003eeffective\u003c/b\u003e January 1, 1980 .395.00 per month \u003cb\u003eeffective\u003c/b\u003e January 1, 1981 425.00 per month&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "GwNGEosvw-YC",
+            "etag": "EFPiXHBAVGA",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/GwNGEosvw-YC",
+            "volumeInfo": {
+                "title": "Daily Reflections for Highly Effective People",
+                "subtitle": "Living THE SEVEN HABITS OF HIGHLY SUCCESSFUL PEOPLE Every Day",
+                "authors": [
+                    "Stephen R. Covey"
+                ],
+                "publisher": "Simon & Schuster",
+                "publishedDate": "1994-03-21",
+                "description": "Make the 7 habits a part of your life—every day... Stephen R. Covey has helped millions of readers attain professional success and personal fulfillment. With penetrating insight Dr. Covey reveals a pathway for living with fairness, integrity, honesty, and human dignity -- principles that give us the security to adapt to change and the wisdom and power to take advantage of the opportunities that change creates. Now, as a succinct introduction to Dr. Covey's revolutionary thinking or as a reminder of key principles, Daily Reflections for Highly Effective People provides an inspirational recharge that will bring you closer to a holistic sense of personal effectiveness and purpose.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0671887173"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780671887179"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 384,
+                "printType": "BOOK",
+                "categories": [
+                    "Business & Economics"
+                ],
+                "averageRating": 3,
+                "ratingsCount": 5,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.3.0.preview.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=GwNGEosvw-YC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=GwNGEosvw-YC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=GwNGEosvw-YC&q=effective&dq=effective&hl=&as_pt=BOOKS&cd=7&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=GwNGEosvw-YC&dq=effective&hl=&as_pt=BOOKS&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Daily_Reflections_for_Highly_Effective_P.html?hl=&id=GwNGEosvw-YC"
+            },
+            "saleInfo": {
+                "country": "IL",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "IL",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=GwNGEosvw-YC&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Now, as a succinct introduction to Dr. Covey&#39;s revolutionary thinking or as a reminder of key principles, Daily Reflections for Highly Effective People provides an inspirational recharge that will bring you closer to a holistic sense of ..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "t_z28NwkVYMC",
+            "etag": "uYdh/XTMcxA",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/t_z28NwkVYMC",
+            "volumeInfo": {
+                "title": "Monthly Statement of the Public Debt of the United States",
+                "publishedDate": "1994",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "UIUC:30112005405060"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "printType": "BOOK",
+                "categories": [
+                    "Debts, Public"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.5.7.0.preview.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=t_z28NwkVYMC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=t_z28NwkVYMC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=t_z28NwkVYMC&q=effective&dq=effective&hl=&as_pt=BOOKS&cd=8&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=t_z28NwkVYMC&dq=effective&hl=&as_pt=BOOKS&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Monthly_Statement_of_the_Public_Debt_of.html?hl=&id=t_z28NwkVYMC"
+            },
+            "saleInfo": {
+                "country": "IL",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "IL",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=t_z28NwkVYMC&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "12, 1995 3.52% Total Treasury Bills Notese : Treasury: 13-1/8% A- 1994 (\u003cb\u003eEffective\u003c/b\u003e Rate 13.1607%)2 12-5/8% B-1994 (\u003cb\u003eEffective\u003c/b\u003e Rate 12.6519%)2 11-5/8% C-1994 (\u003cb\u003eEffective\u003c/b\u003e Rate 11.7028%)2 5 . . 7% E-1994 (\u003cb\u003eEffective\u003c/b\u003e Rate 7.0387%)2 8% F-1994&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "jpYFAQAAIAAJ",
+            "etag": "+8MaSdWDhz0",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/jpYFAQAAIAAJ",
+            "volumeInfo": {
+                "title": "School Effectiveness",
+                "subtitle": "The Key Ingredients of Schools with Heart",
+                "authors": [
+                    "G. Thomas Houlihan"
+                ],
+                "publisher": "Charles C Thomas Pub Limited",
+                "publishedDate": "1988",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "STANFORD:36105033112074"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 133,
+                "printType": "BOOK",
+                "categories": [
+                    "Social Science"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.2.1.0.preview.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=jpYFAQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=jpYFAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=jpYFAQAAIAAJ&q=effective&dq=effective&hl=&as_pt=BOOKS&cd=9&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=jpYFAQAAIAAJ&dq=effective&hl=&as_pt=BOOKS&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/School_Effectiveness.html?hl=&id=jpYFAQAAIAAJ"
+            },
+            "saleInfo": {
+                "country": "IL",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "IL",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=jpYFAQAAIAAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "In an analysis of inner-city schools in London, England, John Rutter found that school \u003cb\u003eeffectiveness\u003c/b\u003e was not related to such physical aspects ... Rutter&#39;s findings tend to support the efforts of the vast \u003cb\u003eeffective\u003c/b\u003e schools research data."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "YLw7AQAAIAAJ",
+            "etag": "WFaKVDSRdyQ",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/YLw7AQAAIAAJ",
+            "volumeInfo": {
+                "title": "Mental and Physical Disability Law Reporter",
+                "publishedDate": "2005",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "STANFORD:36105063861582"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "printType": "BOOK",
+                "categories": [
+                    "Insanity"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.5.5.0.preview.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=YLw7AQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=YLw7AQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=YLw7AQAAIAAJ&q=effective&dq=effective&hl=&as_pt=BOOKS&cd=10&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=YLw7AQAAIAAJ&dq=effective&hl=&as_pt=BOOKS&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Mental_and_Physical_Disability_Law_Repor.html?hl=&id=YLw7AQAAIAAJ"
+            },
+            "saleInfo": {
+                "country": "IL",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "IL",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=YLw7AQAAIAAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "2005 ) \u003cb\u003eEffective\u003c/b\u003e Counsel ; Mitigation ; 305 ( h ) ( 206 ) Pop v . Yarborough ( C . D . Cal . 2005 ) \u003cb\u003eEffective\u003c/b\u003e Counsel ; Meritless Claim ; 304 ( ) ( 213 ) Sillick v . Ault ( N . D . Iowa 2005 ) Jury Instruction ; Diminished&nbsp;..."
+            }
+        }
+    ]
+}
